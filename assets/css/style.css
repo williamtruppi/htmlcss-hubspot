@@ -34,8 +34,16 @@
   color: #fe785a;
 }
 
-.bg_orange{
+.btn_orange{
   background-color: #fe785a;
+  border-radius: 5px;
+  display: inline-block;
+  color: white;
+  padding: 20px 40px;
+}
+
+.marg_20_bottom{
+  margin-bottom: 20px;
 }
 
 /* navbar */
@@ -84,8 +92,8 @@ nav{
 
 .navbar_top .right a:nth-child(3){
   padding: 10px;
-  border-radius: 5px;
   color: white;
+  display: inline;
 }
 
 /* navbar_bottom */
@@ -113,4 +121,32 @@ nav{
   list-style: none;
   color: #32495b;
   padding-left: 10px;
+}
+
+/* HERO_BANNER */
+
+.hero_banner{
+  height: 650px;
+  background-image: url("../img/jumbotron.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  font-weight: 300;
+}
+
+.hero_logo{
+  padding-top: 60px;
+  width: 50%;
+}
+
+.hero_logo h1{
+  font-size: 50px;
+}
+
+.hero_logo p{
+  line-height: 30px;
+}
+
+.hero_logo a{
+  text-decoration: none;
 }

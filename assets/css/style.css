@@ -46,6 +46,12 @@
   margin-bottom: 20px;
 }
 
+.text_center{
+  text-align: center;
+}
+
+/* header */
+
 header{
   width: 100%;
 }
@@ -64,9 +70,10 @@ nav{
   background: #f4f9fd;
   line-height: 80px;
   border-bottom: 1px solid #32495b;
-  position: fixed;
-  top: 0;
+  /* position: fixed;
+  TOP: 0;
   left: 0;
+  z-index: 3; */
 }
 
 .navbar_top a, .navbar_bottom a{
@@ -107,7 +114,7 @@ nav{
 /* navbar_bottom */
 
 .navbar_bottom{
-  height: 50%;
+  height: 80PX;
   line-height: 80PX;
 
 }
@@ -157,4 +164,26 @@ nav{
 
 .hero_logo a{
   text-decoration: none;
+}
+
+/* main */
+
+/* FIRST_ROW */
+
+.first_row{
+  width: 100%;
+  margin: 30px auto;
+  font-weight: 300;
+}
+
+.first_row img{
+  width: 250px;
+}
+
+.first_row h2{
+  font-size: 30px;
+}
+
+.first_row p{
+  line-height: 25px;
 }

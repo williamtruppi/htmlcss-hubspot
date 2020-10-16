@@ -30,6 +30,14 @@
   color: #32495b;
 }
 
+.color_orange{
+  color: #fe785a;
+}
+
+.bg_orange{
+  background-color: #fe785a;
+}
+
 /* navbar */
 
 nav{
@@ -43,12 +51,15 @@ nav{
   height: 50%;
   background: #f4f9fd;
   line-height: 80px;
+  border-bottom: 1px solid #32495b;
 }
 
 .navbar_top a{
   text-decoration: none;
-  font-size: 16px;
+  font-size: 15px;
 }
+
+/* left */
 
 .navbar_top .left a:first-child{
   padding-right: 30px;
@@ -57,4 +68,23 @@ nav{
 
 .navbar_top .left a:last-child{
   padding-left: 30px;
+}
+
+/* right */
+
+.navbar_top .right{
+  text-align: right;
+}
+
+.navbar_top .right a:nth-child(2){
+  border: 1px solid #fe785a;
+  padding: 7px 10px;
+  border-radius: 5px;
+  margin: 0 20px;
+}
+
+.navbar_top .right a:nth-child(3){
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
 }

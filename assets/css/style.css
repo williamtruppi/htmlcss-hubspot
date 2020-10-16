@@ -172,7 +172,7 @@ nav{
 
 .first_row{
   width: 100%;
-  margin: 30px auto;
+  margin: 50px auto;
   font-weight: 300;
 }
 
@@ -186,4 +186,12 @@ nav{
 
 .first_row p{
   line-height: 25px;
+}
+
+/* SECOND_ROW */
+
+.second_row{
+  height: 200px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(50, 73, 91, 0.8)
 }

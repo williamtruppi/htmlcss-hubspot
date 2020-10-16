@@ -46,6 +46,10 @@
   margin-bottom: 20px;
 }
 
+header{
+  width: 100%;
+}
+
 /* navbar */
 
 nav{
@@ -55,10 +59,14 @@ nav{
 }
 
 .navbar_top{
-  height: 50%;
+  height: 80px;
+  width: 100%;
   background: #f4f9fd;
   line-height: 80px;
   border-bottom: 1px solid #32495b;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 
 .navbar_top a, .navbar_bottom a{

@@ -40,6 +40,7 @@
   display: inline-block;
   color: white;
   padding: 20px 40px;
+  text-decoration: none;
 }
 
 .marg_20_bottom{
@@ -65,7 +66,7 @@ nav{
 }
 
 .navbar_top{
-  height: 80px;
+  height: 50%;
   width: 100%;
   background: #f4f9fd;
   line-height: 80px;
@@ -114,7 +115,7 @@ nav{
 /* navbar_bottom */
 
 .navbar_bottom{
-  height: 80PX;
+  height: 50%;
   line-height: 80PX;
 
 }
@@ -191,7 +192,49 @@ nav{
 /* SECOND_ROW */
 
 .second_row{
-  height: 200px;
+  height: 300px;
   border-radius: 5px;
-  box-shadow: 0 0 5px rgba(50, 73, 91, 0.8)
+  box-shadow: 0 0 5px rgba(50, 73, 91, 0.8);
+  margin-bottom: 50px;
+  font-weight: 300;
+}
+
+.second_row img{
+  width: 150px;
+}
+
+.second_row .left{
+  width: 30%;
+  padding: 50px;
+}
+
+.second_row .right{
+  width: 70%;
+  padding: 50px;
+  text-align: left;
+}
+
+.second_row h3:first-of-type{
+  font-size: 27px;
+}
+
+.second_row p{
+  line-height: 25px;
+}
+
+.second_row hr{
+  width: 320px;
+  display: inline-block;
+  margin: 0 0 5px 10px;
+  border: 1px solid grey;
+}
+
+.second_row ul li{
+  display: inline-block;
+  list-style: none;
+  padding-right: 20px;
+}
+
+.fa-check-circle{
+  padding-right: 10px;
 }

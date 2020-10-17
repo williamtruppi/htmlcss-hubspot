@@ -349,3 +349,34 @@ main{
   border-left: 1px solid white;
   border-right: 1px solid white;
 }
+
+/* FIFTH_ROW */
+
+.fifth_row{
+  margin: 60PX auto;
+  font-weight: 300;
+}
+
+.fifth_row .left{
+  width: 30%;
+  margin-left: 60PX;
+  text-align: left;
+}
+
+.fifth_row H2{
+  font-size: 50PX;
+}
+
+.fifth_row .right{
+  width: 60%;
+  padding-left: 50PX;
+  text-align: left;
+}
+
+.fifth_row img{
+  width: 100px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  text-align: center;
+  vertical-align: middle;
+}

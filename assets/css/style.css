@@ -47,6 +47,10 @@
   margin-bottom: 20px;
 }
 
+.marg_40_bottom{
+  margin-bottom: 40px;
+}
+
 .text_center{
   text-align: center;
 }
@@ -169,11 +173,15 @@ nav{
 
 /* main */
 
+main{
+  background-color: #f4f9fd;
+}
+
 /* FIRST_ROW */
 
 .first_row{
   width: 100%;
-  margin: 50px auto;
+  padding: 50px 0;
   font-weight: 300;
 }
 
@@ -197,16 +205,22 @@ nav{
   box-shadow: 0 0 5px rgba(50, 73, 91, 0.8);
   margin-bottom: 50px;
   font-weight: 300;
+  background-color: white;
 }
+
+/* left */
 
 .second_row img{
   width: 150px;
+  margin-bottom: 20px;
 }
 
 .second_row .left{
   width: 30%;
   padding: 50px;
 }
+
+/* right */
 
 .second_row .right{
   width: 70%;
@@ -237,4 +251,45 @@ nav{
 
 .fa-check-circle{
   padding-right: 10px;
+}
+
+/* THIRD_ROW */
+
+.third_row{
+  padding-bottom: 50px;
+}
+
+.third_row .col_3{
+  width: 30%;
+  font-weight: 300;
+  /* padding: 20px; */
+  background-color: white;
+}
+
+.third_row .info_box{
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(50, 73, 91, 0.8);
+  padding: 20px;
+}
+
+.third_row img{
+  height: 100px;
+}
+
+.third_row p{
+  line-height: 25px;
+  font-size: 15px;
+}
+
+.third_row h3:first-of-type{
+  font-size: 25px;
+}
+
+.third_row ul{
+  text-align: left;
+  list-style: none;
+}
+
+.col_3:nth-child(2){
+  margin: 0 5%;
 }

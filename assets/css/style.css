@@ -380,3 +380,28 @@ main{
   text-align: center;
   vertical-align: middle;
 }
+
+/* SIXTH_ROW */
+
+.sixth_row .left{
+  padding: 50px 0;
+  width: 40%;
+  font-weight: 300;
+}
+
+.sixth_row .left h2{
+  font-size: 35px;
+}
+
+.sixth_row .left p:last-child{
+  font-size: 15px;
+}
+
+.sixth_row .right{
+  width: 60%;
+  text-align: right;
+}
+
+.sixth_row img{
+  height: 320px;
+}

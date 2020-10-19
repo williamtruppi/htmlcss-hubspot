@@ -67,6 +67,7 @@ body{
 
 header{
   width: 100%;
+
 }
 
 /* navbar */
@@ -153,7 +154,9 @@ nav{
 /* HERO_BANNER */
 
 .hero_banner{
+  position: relative;
   height: 650px;
+  background-color: #fff2ee;
   background-image: url("../img/jumbotron.png");
   background-size: 1000px;
   background-position: bottom right;
@@ -161,6 +164,19 @@ nav{
   overflow: hidden;
   font-weight: 300;
 }
+
+.hero_banner .bottom{
+  width: 100%;
+  height: 60px;
+  background-color: #afebe4;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-top: 3px solid #33475B;
+  border-bottom: 3px solid #33475B;
+}
+
+
 
 .hero_logo{
   padding-top: 60px;

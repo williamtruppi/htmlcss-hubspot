@@ -9,7 +9,7 @@
 
 .container{
   width: 70%;
-  margin: auto;
+  margin: 0 auto;
 }
 
 .float_left{
@@ -59,22 +59,23 @@
   text-align: center;
 }
 
+/* body */
+
 body{
   min-width: 1400px;
+  font-weight: 300;
 }
 
 /* header */
 
 header{
   width: 100%;
-
 }
 
 /* navbar */
 
 nav{
   width: 100%;
-  font-weight: 300;
 }
 
 .navbar_top{
@@ -86,6 +87,7 @@ nav{
   position: fixed;
   TOP: 0;
   left: 0;
+  z-index: 3;
 }
 
 .navbar_top a, .navbar_bottom a{
@@ -129,7 +131,6 @@ nav{
   height: 80px;
   margin-top: 80px;
   line-height: 80PX;
-
 }
 
 .navbar_bottom img{
@@ -137,11 +138,11 @@ nav{
 }
 
 .navbar_bottom .left{
-  width: 40%;
+  min-width: 40%;
 }
 
 .navbar_bottom .RIGHT{
-  width: 60%;
+  min-width: 60%;
 }
 
 .navbar_bottom ul li{
@@ -162,7 +163,6 @@ nav{
   background-position: bottom right;
   background-repeat: no-repeat;
   overflow: hidden;
-  font-weight: 300;
 }
 
 .hero_banner .bottom{
@@ -175,8 +175,6 @@ nav{
   border-top: 3px solid #33475B;
   border-bottom: 3px solid #33475B;
 }
-
-
 
 .hero_logo{
   padding-top: 60px;
@@ -206,7 +204,6 @@ main{
 .first_row{
   width: 100%;
   padding: 50px 0;
-  font-weight: 300;
 }
 
 .first_row img{
@@ -228,7 +225,6 @@ main{
   border-radius: 5px;
   box-shadow: 0 0 5px rgba(50, 73, 91, 0.8);
   margin-bottom: 50px;
-  font-weight: 300;
   background-color: white;
 }
 
@@ -285,8 +281,6 @@ main{
 
 .third_row .col_3{
   width: 30%;
-  font-weight: 300;
-  /* padding: 20px; */
   background-color: white;
 }
 
@@ -323,7 +317,6 @@ main{
 .fourth_row{
   background: linear-gradient(45deg, #00a4bd, #00bda5);
   color: white;
-  font-weight: 300;
 }
 
 .fourth_row .bottom img{
@@ -378,7 +371,6 @@ main{
 
 .fifth_row{
   margin: 60PX auto;
-  font-weight: 300;
 }
 
 .fifth_row .left{
@@ -399,9 +391,7 @@ main{
 
 .fifth_row img{
   width: 100px;
-  margin-bottom: 20px;
   margin-right: 20px;
-  text-align: center;
   vertical-align: middle;
 }
 
@@ -410,7 +400,6 @@ main{
 .sixth_row .left{
   padding: 50px 0;
   width: 40%;
-  font-weight: 300;
 }
 
 .sixth_row .left h2{
@@ -436,14 +425,14 @@ footer{
   width: 100%;
   background-color: #32495b;
   padding: 20px 0;
-  font-weight: 300;
   font-size: 15px;
 }
 
 /* row_one */
 
 .col-4{
-  margin-right: 42px;
+  width: 25%;
+  /* margin-right: 42px; */
 }
 
 .col-4 h4{
@@ -509,10 +498,6 @@ footer .row_two a:hover{
 
 .row_three{
   margin-top: 30px;
-  color: white;
-}
-
-.row_three img{
   color: white;
 }
 
